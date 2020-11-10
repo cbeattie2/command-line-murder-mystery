@@ -1,1 +1,463 @@
-The name of the killer is Jeremy Bowers
+    1  nano ~/.zshrc
+    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\necho 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+    3  pwd
+    4  ls
+    5  ls -a
+    6  zsh --version
+    7  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+    8  brew install iterm2
+    9  brew install iTerm2
+   10  brew cask install iterm2
+   11  pwd
+   12  ls
+   13  cd Documents
+   14  pwd
+   15  cd Documents
+   16  cd ..
+   17  cd Documents
+   18  ls
+   19  cd GA_Course
+   20  history
+   21  env
+   22  cd ~
+   23  ls -a
+   24  cd Documents/GA_Course
+   25  cd Week_1
+   26  mkdir gitStuff
+   27  cd gitStuff
+   28  git --version
+   29  cd ..
+   30  ls
+   31  cd git-test
+   32  ls -al
+   33  ls
+   34  git init
+   35  ls -al
+   36  echo "Lunch" > eat.txt
+   37  ls
+   38  git status
+   39  git add eat.txt
+   40  git status
+   41  git commit -m 'first file'
+   42  git status
+   43  touch test.txt
+   44  ls
+   45  git status
+   46  mv eat.txt lunch.txt
+   47  ls
+   48  git status
+   49  git add -A
+   50  git status
+   51  git commit -m "blah"
+   52  git status
+   53  pwd
+   54  cd ..
+   55  mkdir SEI-26_Clone
+   56  cd cd SEI-26_Clone
+   57  cd SEI-26_Clone
+   58  git clone https://git.generalassemb.ly/cbeattie/sei-26.git
+   59  cbeattie
+   60  git clone https://git.generalassemb.ly/cbeattie/sei-26.git
+   61  git clone https://git.generalassemb.ly/cbeattie/sei-26.git
+   62  git clone https://git.generalassemb.ly/cbeattie/sei-26.git
+   63  git remote
+   64  git pull
+   65  pwd
+   66  ls
+   67  cd sei-26
+   68  git status
+   69  git pull
+   70  ls
+   71  vim README.md
+   72  git status
+   73  git add README.md
+   74  git status
+   75  git commit -m "Added blah to thing"
+   76  git stuats
+   77  git status
+   78  git push
+   79  git log
+   80  git remote
+   81  git remote -v
+   82  git reset 6887d9f0d59992f159624431fa253d832a40ea7f
+   83  git status
+   84  git commit -m "resetting test"
+   85  git push
+   86  git pull
+   87  git push
+   88  git status
+   89  git add README.md
+   90  git commit -m "testing resetting"
+   91  git status
+   92  git push
+   93  git push --force
+   94  git status
+   95  git pull
+   96  git reset 6887d9f0d59992f159624431fa253d832a40ea7f
+   97  git status
+   98  git pull
+   99  git git status
+  100  ls
+  101  cd ..
+  102  ls
+  103  rm -r sei-26
+  104  ls
+  105  rmdir sei-26
+  106  ls
+  107  git clone https://git.generalassemb.ly/cbeattie/sei-26.git
+  108  ls
+  109  git reset --hard 6887d9f0d59992f159624431fa253d832a40ea7f
+  110  cd sei-26
+  111  git status
+  112  git reset --hard 6887d9f0d59992f159624431fa253d832a40ea7f
+  113  git status
+  114  git push
+  115  git pull
+  116  git status
+  117  git revert 6887d9f0d59992f159624431fa253d832a40ea7f
+  118  git status
+  119  git push
+  120  git status
+  121  git revert 0f6038d6714425a2530bc5dfa7ffe57d6ee00abf
+  122  git status
+  123  git push
+  124  git status
+  125  git add README.md
+  126  git status
+  127  git commit -m "Adding some line"
+  128  git status
+  129  git push
+  130  git status
+  131  ~/wdi/homework
+  132  pwd
+  133  ls
+  134  cd Documents/GA_Coursej
+  135  cd D
+  136  cd Documents
+  137  ls
+  138  cd GA_Course
+  139  ls
+  140  mkdir homework
+  141  ls
+  142  cd homework
+  143  pwd
+  144  mkdir simpsons
+  145  cd simpsons
+  146  mkdir springfield
+  147  cd springfield
+  148  touch Homer.txt
+  149  ls
+  150  touch Marge.txt
+  151  touch Bart.txt
+  152  touch Lisa.txt
+  153  touch Maggie.txt
+  154  l
+  155  ls
+  156  mkdir school
+  157  ls
+  158  mv Bart.txt school
+  159  ls
+  160  cd school
+  161  ls
+  162  cd ..
+  163  ls
+  164  mkdir power-plant
+  165  ls
+  166  mv Homer.txt power-plant
+  167  ls
+  168  cd power-plant
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd power-plant
+  173  ls
+  174  echo 'Work Pass: Homer J. Simpson' >> Homer.txt
+  175  ls
+  176  nano Homer.txt
+  177  cd ..
+  178  mkdir market
+  179  ls
+  180  mv Marge.txt market
+  181  mv Maggie.txt market
+  182  ls
+  183  cd school
+  184  mkdir band-room
+  185  ls
+  186  mv ../Lisa.txt band-room
+  187  ls
+  188  cd band-room
+  189  ls
+  190  ../..
+  191  mkdir pink_car
+  192  tree
+  193  mv power-plant/Homer.txt pink_car
+  194  tree
+  195  mkdir red_car
+  196  mv market/Marge.txt red_car
+  197  tree
+  198  mv market/Maggie.txt red_car
+  199  ls
+  200  tree
+  201  mkdir skateboard
+  202  mv school/Bart.txt skateboard
+  203  tree
+  204  mkdir home
+  205  cd home
+  206  mkdir couch
+  207  cd ..
+  208  tree
+  209  mv pink_car/Homer.txt home/couch
+  210  tree
+  211  mv red_car/Maggie.txt home/couch
+  212  mv red_car/Marge.txt home/couch
+  213  mv school/band-room/Lisa.txt home/couch
+  214  tree
+  215  mv skateboard/Bart.txt home/couch
+  216  tree
+  217  cd ~
+  218  pwd
+  219  cd Documents/GA_Course
+  220  ls
+  221  cd SEI-26_Github_Clone
+  222  git clone https://git.generalassemb.ly/sei-sg/sei-26.git
+  223  :vimtutor
+  224  cd ..
+  225  ls
+  226  cd Week_1
+  227  ls
+  228  cd Labyrinth
+  229  ls
+  230  cd parlor
+  231  ls
+  232  cd ballroom
+  233  ls
+  234  vim sarah_williams.txt
+  235  p10k configure
+  236  cd ..
+  237  ls
+  238  ls -a
+  239  ls -la
+  240  cd ~
+  241  pwd
+  242  cd Documents
+  243  cd GA_Course
+  244  ls
+  245  cd homework
+  246  ls
+  247  mkdir my-favorite-things
+  248  ls
+  249  cd my-favorite-things
+  250  mkdir books
+  251  ls
+  252  cd books
+  253  mkdir maddie-johns
+  254  cd maddie-johns
+  255  touch bellyTheJelly.txt
+  256  ls
+  257  code bellyTheJelly.txt
+  258  pwd
+  259  cd Documents/GA_Course
+  260  ls
+  261  cd homework
+  262  ls
+  263  cd CommandLineBeginnerHomework
+  264  git status
+  265  git init
+  266  git status
+  267  git clone https://git.generalassemb.ly/cbeattie/command-line-beginner-homework.git
+  268  git status
+  269  ls
+  270  cd command-line-beginner-homework
+  271  git status
+  272  git add Simpsons/springfield/
+  273  git status
+  274  git add -A
+  275  git status
+  276  cd Simpsons
+  277  cd springfield
+  278  cd home
+  279  ls
+  280  cd couch
+  281  ls
+  282  git add -A
+  283  git status
+  284  tree
+  285  cd ../..
+  286  tree
+  287  cd school
+  288  cd band-room
+  289  ls
+  290  tree
+  291  ../
+  292  cd ..
+  293  ls
+  294  cd school
+  295  ls
+  296  cd band-room
+  297  ls
+  298  git status
+  299  cd ../..
+  300  pwd
+  301  git status
+  302  git commit -m "adding the simpsons text files"
+  303  git status
+  304  git push
+  305  git status
+  306  cd ~/Documents/GA_Course/
+  307  ls
+  308  cd Week_1
+  309  ls
+  310  mkdir commandLineMurderMystery
+  311  cd commandLineMurderMystery
+  312  git clone https://github.com/cbeattie2/command-line-murder-mystery.git
+  313  ls
+  314  cd command-line-murder-mystery
+  315  git status
+  316  ls
+  317  cat instructions
+  318  ls
+  319  cd mystery
+  320  ls
+  321  cat crimescene
+  322  ls
+  323  cd ..
+  324  ls
+  325  cat instructions
+  326  ls
+  327  cd mystery
+  328  ls
+  329  cat crimescene
+  330  less crimescene
+  331  clear
+  332  less crimescene
+  333  ls
+  334  cd ..
+  335  ls
+  336  cat cheatsheet.md
+  337  ls
+  338  cd mystery
+  339  ls
+  340  grep "clue" crimescene
+  341  grep "clue" crimescene.txt
+  342  ls
+  343  grep "CLUE" crimescene
+  344  ls
+  345  cd interviews
+  346  ls
+  347  cat interview-092423
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd memberships
+  352  ls
+  353  cat AAA
+  354  ls
+  355  cat Delta_SkyMiles
+  356  ls
+  357  cat Museum_of_Bash_History
+  358  ls
+  359  cat delta.txt
+  360  ls
+  361  cat museum
+  362  cat museum.txt
+  363  ls
+  364  cat library.txt
+  365  ls
+  366  grep -ir annabel
+  367  cd ..
+  368  ls
+  369  grep -ir "annabel" memberships
+  370  ls
+  371  cat people
+  372  grep "annabel" people
+  373  ls
+  374  grep -i  "annabel" people
+  375  ls
+  376  cd streets
+  377  ls
+  378  cat Buckingham_Place
+  379  ls
+  380  cd ..
+  381  ls
+  382  cat vehicles
+  383  cd ..
+  384  ls
+  385  cat LICENSE
+  386  ls
+  387  cd mystery
+  388  ls
+  389  cd streets
+  390  ls
+  391  cat Buckingham_Place
+  392  ls
+  393  cat Fay_Street
+  394  ls
+  395  cd ..
+  396  ls
+  397  cat people
+  398  ls
+  399  cd streets
+  400  ls
+  401  cat Buckingham_Place
+  402  ls
+  403  code Buckingham_Place
+  404  cd ..
+  405  ls
+  406  cd interviews
+  407  ls
+  408  cat interview-699607
+  409  ls
+  410  cd ..
+  411  ls
+  412  cat vehicles
+  413  grep "L337" vehicles
+  414  cat vehicles
+  415  grep "Honda" vehicles
+  416  cat vehicles
+  417  grep -A 5 "L337"
+  418  la
+  419  ls
+  420  grep -A 5 "L337" vehicles
+  421  ls
+  422  grep "Erika Owens" people
+  423  grep "Joe Germuska" people
+  424  grep "Jeremy Bowers" people
+  425  grep "Jacqui Maher" people
+  426  ls
+  427  cd streets
+  428  ls
+  429  code Plainfield_Street
+  430  code Dunstable_Road
+  431  ls
+  432  cd ..
+  433  ls
+  434  cd interviews
+  435  ls
+  436  cat interview-29741223
+  437  cat interview-9620713
+  438  ls
+  439  cd ..
+  440  ls
+  441  grep -r  "Jeremy Bowers" memberships
+  442  cd
+  443  ls
+  444  cd -
+  445  ls
+  446  cd ..
+  447  ls
+  448  touch solution.txt
+  449  ls
+  450  history
+  451  history > solution.txt
+  452  cat solution.txt
+  453  echo "The name of the killer is Jeremy Bowers" > solution.txt
+  454  cat solution.txt
+  455  git status
+  456  git add solution.txt
+  457  git status
+  458  git commit -m "Adding solution.txt"
+  459  git status
+  460  git push
+  461  ls
+  462  cat solution.txt
+The killer is Jeremy Bowers
